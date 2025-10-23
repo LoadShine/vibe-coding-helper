@@ -85,7 +85,7 @@ const App: React.FC = () => {
             const calculationPromise = new Promise(resolve => setTimeout(resolve, 2500))
                 .then(() => divinationService.divineAllCompanies(params, isReroll));
 
-            const animationMinTimePromise = new Promise(resolve => setTimeout(resolve, 10000));
+            const animationMinTimePromise = new Promise(resolve => setTimeout(resolve, 13000));
 
             const [divinationResults] = await Promise.all([calculationPromise, animationMinTimePromise]);
 
