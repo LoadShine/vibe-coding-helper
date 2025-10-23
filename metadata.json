@@ -1,0 +1,7 @@
+{
+  "name": "维C助手 (Vibe-Coding Helper)",
+  "description": "An AI model recommendation system that blends Eastern and Western mysticism, using complex numerological and astrological algorithms to suggest the most suitable large model for 'vibe coding' at any given moment.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
